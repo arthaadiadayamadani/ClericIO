@@ -5,6 +5,7 @@ from dateutil.parser import parse as parse_date
 import json
 import threading
 import openai
+import os
 
 app = Flask(__name__)
 
